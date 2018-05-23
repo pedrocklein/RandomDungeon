@@ -1,0 +1,137 @@
+ÁREA INICIAL
+A tabela Área Inicial produz uma câmara ou um conjunto de corredores na entrada da sua masmorra. Quando rolar para uma área inicial aleatória, escolha uma das portas ou passagens levando para a área inicial como a entrada da masmorra como um todo.Quando tiver escolhido a entrada, role na tabela apropriada para cada passagem ou porta levando para fora da área inicial. Cada passagem se estende 3 metros além da área inicial. Após esse ponto, verifique na tabela Passagem para cada passagem para determinar o que existealém. Use a tabela Atrás de uma Porta para determinar o que existe atrás de portas e portas secretas.
+
+ÁREA INICIAL 
+d10	Configuração
+1	Quadrada, 6 x 6 m; passagem em cada parede
+2	Quadrada, 6 x 6 m; porta em duas paredes, passagem na terceira parede
+3	Quadrada, 12 x 12 m; porta em três paredes
+4	Retangular, 24 x 6 m, com fileiras de colunas no meio; duas passagens levando para cada parede longa, portas em cada parede curta
+5	Retangular, 6 x 12 m; passagem em cada parede
+6	Circular, 12 m de diâmetro; uma passagem em cada direção cardinal
+7	Circular, 12 m de diâmetro; uma passagem em cada direção cardinal; poço no meio da sala (pode levar para o nível inferior)
+8	Quadrada, 6 x 6 m; porta em duas paredes, passagem na terceira parede, porta secreta na quarta parede
+9	Passagem, 3 m de largura; interseção em T
+10	Passagem, 3 m de largura; interseção de quatro vias
+
+PASSAGENS
+Quando estiver gerando passagens e corredores, role na tabela Passagem diversas vezes, estendendo o comprimento e ramificações de qualquer passagem aberta no mapa até você chegar a uma porta ou câmara.Sempre que você criar uma nova passagem, role para determinar seu comprimento. Se a passagem se ramificar em outra passagem, role um d12 na tabela Largura da Passagem. Se ela chegar a uma câmara, role um d20 nessa tabela, mas a largura da passagem deve ser pelo menos 1,5 metros menor que a dimensão mais longa da câmara.
+PASSAGEM 
+d20		Detalhe
+1–2		Linha reta de 9 m, sem portas ou passagens laterais
+3		Linha reta de 6 m, porta à direita, então 3 m adicionais à frente
+4		Linha reta de 6 m, porta à esquerda, então 3 m adicionais à frente
+5		Linha reta de 6 m; passagem termina em uma porta
+6–7		Linha reta de 6 m, passagem lateral à direita, então 3 m adicionais à frente
+8–9		Linha reta de 6 m, passagem lateral à esquerda, então 3 m adicionais à frente
+10		Linha reta de 6 m, chega a um beco sem saída, 10 por cento de chance de ter uma porta secreta
+11–12	Linha reta de 6 m, então a passagem vira à direita e continua por 3m
+13–14	Linha reta de 6 m, então a passagem vira à esquerda e continua por 3 m
+15–19	Câmara (role na tabela Câmara)
+20		Escadas* (role na tabela Escadas)
+
+*A existência de escadas pressupõe uma masmorra com mais de um nível. Se você não quer uma masmorra multinível, role novamente esse resultado, use as escadas como uma entrada alternativa, ou substitua-a com outra característica, à sua escolha.
+
+LARGURA DA PASSAGEM 
+d12/d20		Largura	
+1–2			1,5m
+3–12		3m
+13–14		6m
+15–16		9m
+17			12m, com fileira de colunas embaixo do meio
+18			12m, com fileira dupla de colunas
+19			12m de largura, 6 m de altura
+20			12m de largura, 6 m de altura, galeria de 3m acima do solo dá acesso ao nível acima
+
+PORTAS
+Sempre que uma tabela rolada indicar uma porta, role na tabela Tipo de Porta para determinar sua natureza, depois role na tabela Atrás da Porta para ver o que existe do outro lado dela. Se uma porta estiver barrada, você decide qual lado da porta está barrado. Portas destrancadas também podem estar emperradas, ao seu critério. Veja o capítulo 5, “Ambientes de Aventura”, para informações sobre portas e portas levadiças.
+
+PORTA 
+d20		Tipo de Porta
+1–10	Madeira
+11–12	Madeira, barrada ou trancada
+13		Pedra
+14		Pedra, barrada ou trancada
+15		Ferro
+16		Ferro, barrada ou trancada
+17		Levadiça
+18		Levadiça, travada no lugar
+19		Porta secreta
+20		Porta secreta, barrada ou trancada
+
+ATRÁS DE UMA PORTA 
+d20		Característica
+1–2		Passagem se prolonga por 3m, então uma interseção em T se prolonga por 3m para a direita e esquerda
+3–8		Passagem de 6 m em linha reta
+9–18	Câmara (role na tabela Câmara)
+19		Escadas (role na tabela Escadas)
+20		Porta falsa com armadilha
+
+CÂMARAS
+
+Sempre que uma rolagem em uma tabela indicar uma câmara, use a tabela Câmaras para definir suas dimensões. Então role na tabela Saídas da Câmara para determinar o número de saídas. Para cada saída, role na tabela Localização da Saída para determinar a natureza e local da saída. Use as tabelas na seção “Preenchendo uma Masmorra” para determinar o conteúdo de uma câmara.
+
+CÂMARAS 
+d20		Câmara
+1–2		Quadrada, 6 x 6 m¹
+3–4		Quadrada, 9 x 9 m¹
+5–6		Quadrada 12 x 12 m¹
+7–9		Retangular, 6 x 9 m¹
+10–12	Retangular,9 x 12 m¹
+13–14	Retangular, 12 x 15 m²
+15		Retangular, 15 x 24 m²
+16		Circular, 9 m de diâmetro¹
+17		Circular, 15 m de diâmetro
+18		Octogonal, 12 x 12 m²
+19		Octogonal, 18 x 18 m²
+20		Trapezoide, aproximadamente 12 x 18 m²
+
+¹Use a coluna Câmara Normal na tabela Saídas da Câmara.
+²Use a coluna Câmara Grande na tabela Saídas da Câmara.
+
+SAÍDAS DA CÂMARA
+d20		Câmara Normal	Câmara Grande
+1–3		0				0
+4–5		0				1
+6–8		1				1
+9–11	1				2
+12–13	2				2
+14–15	2				3
+16–17	3				3
+18		3				4
+19		4				5
+20		4				6
+
+LOCALIZAÇÃODA SAÍDA 
+d20		Local
+1–7		Parede oposta à entrada
+8–12	Parede à esquerda da entrada
+13–17	Parede à direita da entrada
+18–20	Mesma parede da entrada
+
+TIPO DE SAÍDA 
+d20		Tipo
+1–10	Porta (role na tabela Tipo de Porta)
+11–20	Corredor, 3 m de comprimento
+
+ESCADAS
+
+Escadas podem incluir quaisquer formas de subir ou descer, incluindo rampas, chaminés, fossos, elevadores e escadas de mão. Se sua masmorra tiver mais de um nível, a quantidade de espaço entre os níveis cabe a você. Uma distância de 9 metros funciona bem para a maioria das masmorras.
+
+ESCADAS 
+d20		Escada
+1–4		Desce um nível para uma câmara
+5–8		Desce um nível para uma passagem de 6 m de comprimento
+9		Desce dois níveis para uma câmara
+10		Desce dois níveis para uma passagem de 6 m de comprimento
+11		Desce três níveis para uma câmara
+12		Desce três níveis para uma passagem de 6 m de comprimento
+13		Sobe um nível para uma câmara
+14		Sobe um nível para um passagem de 6 m de comprimento
+15		Sobe para um beco sem saída
+16		Desce para um beco sem saída
+17		Chaminé sobe um nível para uma passagem de 6 m de comprimento
+18		Chaminé sobe dois níveis para uma passagem de 6 m de comprimento
+19		Fosso (com ou sem elevador) para um nível abaixo em uma câmara
+20		Fosso (com ou sem elevador) para um nível acima em uma câmara e um nível abaixo em uma câmara
+
