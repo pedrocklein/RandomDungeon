@@ -1,5 +1,9 @@
 ÁREA INICIAL
-A tabela Área Inicial produz uma câmara ou um conjunto de corredores na entrada da sua masmorra. Quando rolar para uma área inicial aleatória, escolha uma das portas ou passagens levando para a área inicial como a entrada da masmorra como um todo.Quando tiver escolhido a entrada, role na tabela apropriada para cada passagem ou porta levando para fora da área inicial. Cada passagem se estende 3 metros além da área inicial. Após esse ponto, verifique na tabela Passagem para cada passagem para determinar o que existealém. Use a tabela Atrás de uma Porta para determinar o que existe atrás de portas e portas secretas.
+A tabela Área Inicial produz uma câmara ou um conjunto de corredores na entrada da sua masmorra. Quando rolar para uma área inicial aleatória,
+escolha uma das portas ou passagens levando para a área inicial como a entrada da masmorra como um todo.
+Quando tiver escolhido a entrada, role na tabela apropriada para cada passagem ou porta levando para fora da área inicial.
+Cada passagem se estende 3 metros além da área inicial. Após esse ponto, verifique na tabela Passagem para cada passagem para determinar o que existe além.
+Use a tabela Atrás de uma Porta para determinar o que existe atrás de portas e portas secretas.
 
 ÁREA INICIAL 
 d10	Configuração
