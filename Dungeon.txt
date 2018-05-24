@@ -1,0 +1,10 @@
+{'passages': 4, 'dimensions': (4, 8, 'r'), 'wells': 0, 'doors': 0, 'secret_doors': 0, 'id': 'room_1', 'description': 'Retangular, 6 x 12 m; passagem em cada parede'}
+{'width': 2, 'passages': 1, 'description': 'Linha reta de 6 m, porta a direita, ent\xc3\xa3o 3 m adicionais a frente', 'doors': 1, 'secret_doors': 0, 'coming_from': 'room_1', 'id': 'passage_1', 'dimensions': (4, 1, 'l')}
+{'width': 1, 'passages': 2, 'description': 'Linha reta de 6 m, passagem lateral a direita, ent\xc3\xa3o 3 m adicionais a frente', 'doors': 0, 'secret_doors': 0, 'coming_from': 'room_1', 'id': 'passage_2', 'dimensions': (6, 1, 'l')}
+{'width': 1, 'passages': 1, 'description': 'Linha reta de 6 m, ent\xc3\xa3o a passagem vira \xc3\xa0 direita e continua por 3m ', 'doors': 0, 'secret_doors': 0, 'coming_from': 'room_1', 'id': 'passage_3', 'dimensions': (4, 2, 'Lr')}
+{'width': 1, 'passages': 1, 'description': 'Linha reta de 6 m, ent\xc3\xa3o a passagem vira \xc3\xa0 esquerda e continua por 3 m', 'doors': 0, 'secret_doors': 0, 'coming_from': 'room_1', 'id': 'passage_4', 'dimensions': (4, 2, 'Ll')}
+{'width': 2, 'passages': 1, 'description': 'Linha reta de 6 m, ent\xc3\xa3o a passagem vira \xc3\xa0 direita e continua por 3m ', 'doors': 0, 'secret_doors': 0, 'coming_from': 'passage_2', 'id': 'passage_5', 'dimensions': (4, 2, 'Lr')}
+{'width': 2, 'passages': 1, 'description': 'Linha reta de 9 m, sem portas ou passagens laterais', 'doors': 0, 'secret_doors': 0, 'coming_from': 'passage_2', 'id': 'passage_6', 'dimensions': (6, 1, 'l')}
+{'width': 1, 'passages': 1, 'description': 'Linha reta de 9 m, sem portas ou passagens laterais', 'doors': 0, 'secret_doors': 0, 'coming_from': 'passage_4', 'id': 'passage_7', 'dimensions': (6, 1, 'l')}
+{'passages': 0, 'dimensions': (4, 6, 'r'), 'doors': 1, 'secret_doors': 0, 'id': 'room_2', 'description': 'Retangular, 6 x 9 m; one door at Parede oposta \xc3\xa0 entrada'}
+{'width': 2, 'passages': 1, 'description': 'Linha reta de 9 m, sem portas ou passagens laterais', 'doors': 0, 'secret_doors': 0, 'coming_from': 'room_2', 'id': 'passage_8', 'dimensions': (6, 1, 'l')}
