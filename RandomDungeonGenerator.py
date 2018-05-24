@@ -67,22 +67,48 @@ def generateStartingArea():
         starting_area['ID'] = getRoomID()
         starting_area['dimensions'] = (4, 4)  # dimensions are in squares
         coordinates = ['north', 'south', 'east', 'west']
-        random_coordinates = 
-        starting_area['exits'] = [(getPassageID(), 'passage', 'north'),
-                                  (getPassageID(), 'passage', 'south'),
-                                  (getPassageID(), 'passage', 'east'),
-                                  (getPassageID(), 'passage', 'west')]
+        random_coordinate = np.randint(1, len(coordinates))
+        first_passage = (getPassageID(), 'door', coordinates[random_coordinate])
+        coordinates.pop(random_coordinate)
+        random_coordinate = np.randint(1, len(coordinates))
+        second_passage = (getPassageID(), 'door', coordinates[random_coordinate])
+        coordinates.pop(random_coordinate)
+        random_coordinate = np.randint(1, len(coordinates))
+        third_passage = (getPassageID(), 'passage', coordinates[random_coordinate])
+
+        starting_area['exits'] = [first_passage, second_passage, third_passage]
 
     elif random_starting_area == 3:
+        #Quadrada, 12x12 m; porta em três paredes
+        starting_area['ID'] = getRoomID()
+        starting_area['dimensions'] = (8, 8)  # dimensions are in squares
+        coordinates = ['north', 'south', 'east', 'west']
+        random_coordinate = np.randint(1, len(coordinates))
+        first_passage = (getPassageID(), 'door', coordinates[random_coordinate])
+        coordinates.pop(random_coordinate)
+        random_coordinate = np.randint(1, len(coordinates))
+        second_passage = (getPassageID(), 'door', coordinates[random_coordinate])
+        coordinates.pop(random_coordinate)
+        random_coordinate = np.randint(1, len(coordinates))
+        third_passage = (getPassageID(), 'door', coordinates[random_coordinate])
 
+        starting_area['exits'] = [first_passage, second_passage, third_passage]
+        pass
     elif random_starting_area == 4:
-        
+        #Retangular, 24x6 m, com fileiras de colunas no meio; duas passagens levando para cada parede longa, portas em cada parede curta
+        pass
     elif random_starting_area == 5:
+        pass
     elif random_starting_area == 6:
+        pass
     elif random_starting_area == 7:
+        pass
     elif random_starting_area == 8:
+        pass
     elif random_starting_area == 9:
+        pass
     elif random_starting_area == 10:
+        pass
     
             
 
